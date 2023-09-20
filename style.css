@@ -1,0 +1,116 @@
+section {
+    padding: 30px 0;
+    margin: 1px 0;
+    /* background-color: #28292d; */
+    /* background-color: #232528; */
+    /* background-color: #262729; */
+    background-color: #28292d;
+}
+
+body {
+    background-color: #93B1A6;
+}
+
+#intro {
+    height: 99.6vh;
+    margin-top: 0;
+    /* margin-bottom: 0; */
+    background-image: url(./Images/Intro\ Background\ for\ desktop.jpg);
+    background-size: cover;
+    /* background-color: rgba(11, 9, 9, 0.931); */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+
+#intro > div > h1 {
+    font-family: serif;
+    font-size: 5rem;
+}
+
+#intro > div > div > p {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+#aboutme > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutme > div > img {
+    margin-top: 2rem;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#aboutme > div > p {
+    margin-top: 2rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: #93B1A6;
+}
+
+#resume, #projects{
+    color: #93B1A6;
+    font-size: 1.2rem;
+}
+
+#resume > div {
+    padding: 2rem;
+}
+
+#projects > div > ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projects > div > ul > li {
+    margin: 1rem 0;
+}
+
+#projects > div > ul > li > a{
+    color: #93B1A6;
+}
+
+#footer > div > footer > p{
+    text-align: center;
+    color: #93B1A6;
+}
+
+#footer > div {
+    color: #93B1A6;
+}
+
+#footer > div > div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 600px) {
+
+    #intro {
+        background-color: #28292d;
+        background-image: none;
+        height: 53rem;
+    }
+    
+    #footer > div > div {
+        flex-direction: column;
+    }
+    
+    section > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}

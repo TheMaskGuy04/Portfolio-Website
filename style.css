@@ -95,7 +95,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
     #intro {
         background-color: #28292d;
